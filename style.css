@@ -25,6 +25,7 @@ header{
     padding: 10px 20px;
     margin: 0 10px;
     font-weight: 500;
+    transition: 0.3s;
     
 }
 
@@ -47,6 +48,12 @@ header{
 
 .logo h1{
     font-size: 40px;
+    transition: 00.3s;
+}
+.logo h1:hover{
+    font-size: 40px;
+    color: #fff;
+    background-color: #5BC241;
 }
 
 .sobre, .cadastre-se{
